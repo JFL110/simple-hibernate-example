@@ -7,6 +7,6 @@ Simple demo for:
 - Hibernate with no XML.
 - JUnit tests.
 - Connecting to MySQL.
-- Connecting to H2 in tests.
+- Connecting to [H2](https://en.wikipedia.org/wiki/H2_(DBMS)) in tests.
 - Travis for continuous integration.
 - Coveralls for code coverage checks.
