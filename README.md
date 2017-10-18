@@ -8,5 +8,5 @@ Simple demo for:
 - JUnit tests.
 - Connecting to MySQL.
 - Connecting to a temporary [H2](https://en.wikipedia.org/wiki/H2_(DBMS)) database in tests.
-- Travis for continuous integration.
+- [Travis](https://travis-ci.org/JFL110/simple-hibernate-example) for continuous integration.
 - Coveralls for code coverage checks.
