@@ -10,3 +10,5 @@ Simple demo for:
 - Connecting to a temporary [H2](https://en.wikipedia.org/wiki/H2_(DBMS)) database in tests.
 - [Travis](https://travis-ci.org/JFL110/simple-hibernate-example) for continuous integration.
 - [Coveralls](https://coveralls.io/github/JFL110/simple-hibernate-example) for code coverage checks.
+
+Get started by looking at the [tests](https://github.com/JFL110/simple-hibernate-example/blob/master/src/test/java/org/jfl110/she/DatabaseTestSingleTable.java).
