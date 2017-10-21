@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.List;
 
 import org.hibernate.SessionFactory;
+import org.junit.After;
 import org.junit.Test;
 
 import com.google.common.collect.Sets;
@@ -24,6 +25,11 @@ public class DatabaseTestSingleTable {
 			Sets.newHashSet(ExampleTableOne.class));
 	SimpleHibernateExecutor simpleHibernateExecutor = new SimpleHibernateExecutor();
 
+	@After
+	public void after() {
+		sessionFactory.close();
+	}
+	
 	@SuppressWarnings("unchecked")
 	@Test
 	public void testSaveSelectDelete() {
